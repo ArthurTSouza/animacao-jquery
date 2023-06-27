@@ -1,0 +1,92 @@
+.wrapper{
+    width: 90%;
+    height: 98%;
+    background-image: url("../imgs/pista2.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 5%;
+}
+
+.ponte{
+    position: absolute;
+    background-image: url("../imgs/ponte.png");
+    top: -20;
+    left: -0.13vw;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+
+}
+
+#botoes{
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    bottom: 1vh;
+    right: 3vw;    
+}
+
+.btncima, .btnbaixo, .btnleft, .btnright{
+    width: 33%;
+    height: 25%;
+    position: relative;
+    background-color: #877f7f;
+    border: solid #000000 2px;
+}
+
+.btncima{
+    top: 9vh;
+    left: 4.5vw;
+}
+
+.btnbaixo{
+    top: 13.9vh;
+    right: 0.2vw;
+}
+
+.btnleft{
+    top:9vh;
+    left: 0vw;
+}
+
+.btnright{
+    right: -4.3vw;
+    top: 9vh;
+}
+
+.inicio{
+    bottom: 2vh;
+    left: 4vw;
+}
+
+#car{
+    background-image: url("../imgs/carro-esquerda.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* #car:hover{
+    animation-name: correr;
+    animation-duration: 1.5s;
+    
+} */
+
+/*Não encontrei sprites do carro*/ 
+
+
+@keyframes cima{
+    0%{background-image: url("../imgs/carro-cima.png");}
+}
+
+@keyframes baixo{
+    0%{background-image: url("../imgs/carro-baixo.png");}
+}
+
+@keyframes direita{
+    0%{background-image: url("../imgs/carro-direita.png");}
+}
+
+@keyframes esquerda{
+    0%{background-image: url("../imgs/carro-esquerda.png");}
+}
