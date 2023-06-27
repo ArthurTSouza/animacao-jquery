@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+    integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Jogo top down de corrida: Race Arcade</title>
 </head>
 <body>
 
 <div class="wrapper">
-    <div id="car" class="inicio"></div>
-        <div id="botoes">
+    <div class="ponte"></div>
+
+    <div class="car" id="car"></div>   
+
+     <!-- <div class="car" id="car"><img src="imgs/carro-esquerda2.png" height="25px" width="50px"></div>   -->
+       
+    <div id="botoes">
             <button id="btncima" class="btncima"> Cima</button>
             <button id="btnbaixo" class="btnbaixo"> Baixo</button>
             <button id="btnleft" class="btnleft"> Esquerda</button>
             <button id="btnright" class="btnright"> Direita</button>
-        </div>
-
-        <div class="ponte"></div>
+    </div>        
 </div>
 
 <script src="js/script.js"></script>

@@ -15,7 +15,21 @@
     height: 100%;
     width: 100%;
     z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 
+!
+.car{
+    background-image: url(../imgs/carro-esquerda2.png);
+    width: 50px;
+    height: 25px;  
+    position: relative;
+    left: 20.9vw;
+    top: 85.5vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
 }
 
 #botoes{
@@ -54,16 +68,14 @@
     top: 9vh;
 }
 
-.inicio{
-    bottom: 2vh;
-    left: 4vw;
-}
-
-#car{
-    background-image: url("../imgs/carro-esquerda.png");
-    width: 100%;
-    height: 100%;
+.car{
+    background-image: url("../imgs/carro-esquerda2.png");
+    width: 50px;
+    height: 25px;
     position: absolute;
+    background-repeat: no-repeat;
+    top: 85vh;
+    left: 20.9vw;
 }
 
 /* #car:hover{
@@ -76,17 +88,21 @@
 
 
 @keyframes cima{
-    0%{background-image: url("../imgs/carro-cima.png");}
+    0%{background-image: url("../imgs/carro-cima2.png");}
+    100%{background-image: url("../imgs/carro-cima2.png");}
 }
 
 @keyframes baixo{
-    0%{background-image: url("../imgs/carro-baixo.png");}
+    0%{background-image: url("../imgs/carro-baixo2.png");}
+    100%{background-image: url("../imgs/carro-baixo2.png");}
 }
 
 @keyframes direita{
-    0%{background-image: url("../imgs/carro-direita.png");}
+    0%{background-image: url("../imgs/carro-direita2.png");}
+    100%{background-image: url("../imgs/carro-direita2.png");}
 }
 
 @keyframes esquerda{
-    0%{background-image: url("../imgs/carro-esquerda.png");}
+    0%{background-image: url("../imgs/carro-esquerda2.png");}
+    100%{background-image: url("../imgs/carro-esquerda2.png");}
 }

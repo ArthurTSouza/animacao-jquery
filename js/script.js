@@ -7,24 +7,24 @@
 
 $("#btncima").click(
     function(){
-        $("#car").animate({top:"100px"},{duration: "1500"}.css(animate('cima')));
+        $("#car").animate({top:"-0.2vh"},{duration: "1500"}).css('animation','cima 2 steps (20)');
     }
 )
 
 $("#btnbaixo").click(
     function(){
-        $("#car").animate({bottom:"100px"},{duration: "1500"}.css(animate('baixo')));
+        $("#car").animate({top:"0.2vh"},{duration: "1500"}).css('animation','baixo 2 steps (20)');
     }
 )
 
 $("#btnleft").click(
     function(){
-        $("#car").animate({left:"100px"},{duration: "1500"}.css(animate('esquerda')));
+        $("#car").animate({left:"-0.2vw"},{duration: "1500"}).css('animation','esquerda 2 steps (20)');
     }
 )
 
 $("#btnright").click(
     function(){
-        $("#car").animate({left:"100px"},{duration: "1500"}.css(animate('direita')));
+        $("#car").animate({left:"0.2vw"},{duration: "1500"}).css('animation','direita 2 steps (20)');
     }
 )
